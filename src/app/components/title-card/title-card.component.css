@@ -1,0 +1,79 @@
+mat-card{
+    align-content: center;
+    display: block;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgb(0, 0, 0);
+    padding-top: 5%;
+    height: 30%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.name-text{
+    color: rgb(253, 253, 253);
+    font-size: 74pt;
+    vertical-align: middle;
+}
+
+#bg{
+    background: url(https://img.wallpapersafari.com/desktop/1920/1080/9/59/ZcVzSn.jpeg);
+    background-size: cover;
+}
+
+.content{
+    justify-content: center;
+    align-items: center;
+    min-width: 1000px;
+    overflow: hidden;
+}
+
+.text {
+    position: relative;
+    top: 50%; 
+    right: 50%;
+    transform: translate(50%,-50%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 74px ;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+        1px 7px 1px #919191,
+        1px 8px 1px #919191,
+        1px 9px 1px #919191,
+        1px 10px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
+
+.subtext {
+    padding-top: 4%;
+    position: relative;
+    top: 55%; 
+    right: 50%;
+    transform: translate(50%,-0%);
+    text-transform: uppercase;
+    font-family: verdana;
+    font-size: 20px ;
+    font-weight: 700;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #919191,
+        1px 2px 1px #919191,
+        1px 3px 1px #919191,
+        1px 4px 1px #919191,
+        1px 5px 1px #919191,
+        1px 6px 1px #919191,
+    1px 18px 6px rgba(16,16,16,0.4),
+    1px 22px 10px rgba(16,16,16,0.2),
+    1px 25px 35px rgba(16,16,16,0.2),
+    1px 30px 60px rgba(16,16,16,0.4);
+}
