@@ -1,0 +1,16 @@
+.about-me{
+    display: block;
+    align-items: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.content{
+    text-align: center;
+    font-size: large;
+}
+
+.headers{
+    font-size: 30pt;
+    text-align: center;
+}
