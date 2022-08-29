@@ -6,11 +6,16 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { TitleCardComponent } from './components/title-card/title-card.component';
 import { MatCardModule } from '@angular/material/card';
 import { MatGridListModule } from '@angular/material/grid-list';
+import { ContentComponent } from './components/content/content.component';
+import { EducationComponent } from './components/education/education.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TitleCardComponent
+    TitleCardComponent,
+    ContentComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
@@ -18,6 +23,14 @@ import { MatGridListModule } from '@angular/material/grid-list';
     MatToolbarModule,
     MatCardModule,
     MatGridListModule,
+    NgCircleProgressModule.forRoot({
+      radius: 100,
+      outerStrokeWidth: 16,
+      innerStrokeWidth: 8,
+      outerStrokeColor: "#78C000",
+      innerStrokeColor: "#C7E596",
+      animationDuration: 300,
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
